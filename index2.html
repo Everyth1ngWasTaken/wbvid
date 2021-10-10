@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Media/embedding: Task 2</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      video {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Video embed</h1>
+
+    <video width="320" height="240" controls>
+      <source src="video.mp4" type="video/mp4" />
+      <source
+        src="html_multimedia-and-embedding_tasks_media-embed_media_video.webm"
+        type="video/webm"
+      />
+      <track
+        kind="subtitles"
+        src="subtitles_en.vtt"
+        srclang="en"
+        label="English"
+      />
+    </video>
+    <p>
+      <a href="index.html"> Back/</a><a href="index3.html"> Youtube embedd</a>
+    </p>
+  </body>
+</html>
